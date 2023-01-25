@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
    <section>
     <nav>
-        <img src="./HTML Practise Assets/FES.svg" alt="image">
+        <img src="./HTML Practise Assets/FES.svg" class="logo" alt="image">
         <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#discord">Discord</a></li>
@@ -17,64 +18,89 @@
         </ul>
     </nav>
     <header>
+        <div class="row">
         <div>
 <h1>Best place to learn Frontend</h1>
-<p>Go from absolute beginner to pro with a simplified process</p>
+<p class="sub">Go from absolute beginner to pro with a simplified process</p>
 <button>Start Now</button>
         </div>
 <figure>
 <img src="./HTML Practise Assets/laptop.png" alt="Image of laptop">
 </figure>
+</div>
     </header>
    </section>
    <main>
-<section id="about"></section>
+<section id="about">
+    
 <h2>About</h2>
-<div>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus in aperiam, impedit reiciendis modi explicabo sed natus totam hic iure suscipit quidem deleniti quo assumenda. Magnam eius vero illum obcaecati.
+<div class="section__description">
+
+<div class="section__desc">
+    <p class="section__description--para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus in aperiam, impedit reiciendis modi explicabo sed natus totam hic iure suscipit quidem deleniti quo assumenda. Magnam eius vero illum obcaecati.
 
     </p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia esse, in quisquam explicabo labore culpa expedita nisi voluptates! Commodi nobis eaque, nisi id quasi minima! Unde qui modi officiis ut!</p>
-    <figure>
+    <p class="section__description--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia esse, in quisquam explicabo labore culpa expedita nisi voluptates! Commodi nobis eaque, nisi id quasi minima! Unde qui modi officiis ut!</p>
+    <figure class="about__img--wrapper">
         <img src="./HTML Practise Assets/about.jpg" alt="image of laptop">
     </figure>
 </div>
-<section id="discord"></section>
+</div>
+</section>
+
+<section id="discord">
 <h2>Discord</h2>
-<figure>
+<div class="jam">
+<figure class="jin">
 <img src="./HTML Practise Assets/discord.png" alt="image of discord logo">
 
 </figure>
 <div>
-<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis dolorum unde minus ipsam exercitationem, quia magnam aliquid cum iure recusandae eveniet, harum quas praesentium maxime quaerat provident maiores! Esse, hic?</p>
+<p class="section__description--para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis dolorum unde minus ipsam exercitationem, quia magnam aliquid cum iure recusandae eveniet, harum quas praesentium maxime quaerat provident maiores! Esse, hic?</p>
 
-<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur impedit, minus, doloribus veritatis perspiciatis quas sapiente explicabo beatae culpa aspernatur ea a consectetur quidem dolore sit error, eaque eum nemo.</p>
+<p class="section__description--para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur impedit, minus, doloribus veritatis perspiciatis quas sapiente explicabo beatae culpa aspernatur ea a consectetur quidem dolore sit error, eaque eum nemo.</p>
 
+<p class="section__description--para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur modi repellat laborum libero accusantium, minus eum odit soluta consectetur reprehenderit ducimus quas, perferendis doloribus. Repudiandae suscipit quos maxime id error?
+
+<p class="section__description--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora error molestias eum! Natus quam officia maiores unde eveniet at excepturi, nam impedit magni, cupiditate, vero mollitia doloribus reiciendis aliquid et?</p>
+
+<p class="section__description--para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ipsum sed, corrupti voluptas magnam magni, consectetur provident aut vel est deserunt nobis odio eligendi obcaecati aspernatur ut tempore veniam laboriosam!</p>
+
+<p class="section__description--para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi debitis porro a nemo nesciunt sed iure ad! Unde necessitatibus dignissimos dicta, fuga illum quidem exercitationem labore aut rerum nihil! Eligendi.</p>
 
 </div>
+</div>
+</section>
 <section id="contact">
+    <h2>Contact</h2>
 <form action="">
     <label for="Email">Email</label>
-<input type="text" placeholder="Jane@example.com"> 
+<input type="email" placeholder="Jane@example.com"> 
 <div>
 <label for="Message">Message</label>
 </div>
 <textarea placeholder="Nice Website, let's connect!"></textarea>
-
+<button>Contact Us</button>
 </form>
 
 
 </section>
    </main>
+
+
+
+
    <footer>
-<img src="./HTML Practise Assets/FES.svg" alt="FES logo">
-<div>
-<a href="#about"></a>
-<a href="#Discord"></a>
-<a href="#Contact"></a>
-<a href="">Courses</a>
+    <div class="space">
+<img class="flogo" src="./HTML Practise Assets/FES.svg" alt="FES logo">
+<div class="flink">
+<a class="flink" href="#about">About</a>
+<a class="flink" href="#Discord">Discord</a>
+<a class="flink" href="#Contact">Contact</a>
+<a class="flink" href="">Courses</a>
 </div>
 <p>Copyright Frontend Simplified</p>
+</div>
    </footer>
 </body>
 </html>
